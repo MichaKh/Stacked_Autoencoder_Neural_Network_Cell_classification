@@ -18,11 +18,11 @@ We build a network consisting of three fully connected dense hidden layers of 30
 After fitting the auto-encoder on the designed model, we froze the weights of the trained layers and replaced the last reconstruction layer.
 We measure the accuracy of classificaion.
 
-![Screenshot](Autoencoder_scheme_A.png)
-![Screenshot](Autoencoder_scheme_B.png)
+![Screenshot](Stacked_Autoencoder_Neural_Network_Cell_classification/Img/Autoencoder_scheme_A.png)
+![Screenshot](Stacked_Autoencoder_Neural_Network_Cell_classification/Img/Autoencoder_scheme_B.png)
 
 GUI
 ---------------------------------------
 The GUI enables to upload the data files, consisting of cell read counts, and present the evaluation results of the classification.
 
-![Screenshot](Autoencoder_scheme_A.png)
+![Screenshot](Stacked_Autoencoder_Neural_Network_Cell_classification/Img/GUI_screenshot.png)
